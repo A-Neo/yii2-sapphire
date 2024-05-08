@@ -1,0 +1,4 @@
+[06-Sep-2023 00:02:21 Europe/Moscow] PHP Fatal error:  Uncaught Error: Class 'yii\web\Response' not found in /home/omercans/public_html/config/web.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/omercans/public_html/config/web.php on line 41

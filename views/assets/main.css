@@ -1,0 +1,239 @@
+.section-in {
+    background-color: #f8f9ff;
+    background-image: none;
+    min-height: 100vh;
+}
+.block_logo-form > img {
+    display: none;
+}
+.wrapp_soc-icon {
+    justify-content: start;
+    bottom: 30px;
+    left: 30px;
+}
+h3.in {
+    text-align: center;
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.wrapper_form-in {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0 28px;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 20px 2px rgba(0,0,0,0.1);
+    width: 100%;
+    min-width: 288px;
+    max-width: 300px;
+}
+.form_in {
+    width: 100%;
+}
+.wrapper_form-in .btn_in {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ccc;
+    text-align: center;
+    border-radius: 0.25rem;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+}
+
+.wrapper_form-in .btn_in:hover {
+    background-color: #7a5ec1;
+    color: #fff;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+.form_in .form-group label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+.form_in .form-group {
+    margin-bottom: 7px;
+}
+.w-input {
+    color: #5f42aa;
+    background-color: rgba(214, 222, 253, 0.3);
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    padding: 6px 4px;
+    height: 31.5px;
+    width: 100%;
+    min-width: 100%;
+    font-size: 14px;
+}
+.show-group-password {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.show-group-password > input {
+    margin: 0 4px 0 0;
+    height: 16px;
+    width: 16px;
+    vertical-align: inherit;
+    color: #5f42aa;
+    background-color: rgba(214, 222, 253, 0.3);
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    padding: 6px 4px;
+}
+.show-group-password > label {
+    margin: 0;
+    margin-left: 3px;
+}
+
+.field-loginform-rememberme{
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+.field-loginform-rememberme label:before {
+    margin: 0 4px 0 0;
+    height: 16px;
+    width: 16px;
+    vertical-align: inherit;
+    color: #5f42aa;
+    background-color: rgba(214, 222, 253, 0.3);
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    padding: 6px 4px;
+}
+.field-loginform-rememberme label {
+    line-height: 170%;
+}
+
+.form-group > .invalid-feedback {
+    display: none;
+}
+.btn_password-forgut {
+    padding-top: 15px;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    color: #5f42aa;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: left;
+}
+.login-new-account .text_akk {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.login-new-account .text_akk a {
+    margin: 0;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5f42aa;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+/*Иконка языка*/
+.language {
+    padding: 0;
+}
+.wrapp_language .wrapp_arrow {
+    display: none;
+}
+.wrapp_language .tr_name {
+    font-size: 13px;
+    padding-top: 2px;
+}
+.wrapp_language .tr.w-inline-block {
+    margin: 0;
+    padding: 6px 8px;
+}
+
+/*Регистрация*/
+
+.wrapper_form-in-reg {
+    width: 100%;
+    min-width: 525px;
+    max-width: 525px;
+}
+@media screen and (max-width: 479px) {
+    .wrapper_form-in-reg {
+        min-width: 320px;
+        max-width: 380px;
+    }
+    .wrapp_arrow-tr {
+     margin-bottom: 2px; 
+    }
+}
+label.has-star {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+.wrapper_form-in-reg .kv-form-bs4 .has-error .invalid-feedback {
+    display: none;
+}
+.select2-container .select2-selection {
+    background-color: rgba(214, 222, 253, 0.3);
+}
+.wrapper_form-in-reg .select2-container .select2-selection .select2-selection__rendered {
+    padding-top: 8px;
+    font-size: 14px;
+}
+.wrapper_form-in-reg .select2-selection__placeholder {
+    font-size: 14px;
+}
+.wrapper_form-in-reg .form-group {
+    margin-bottom: 5px;
+}
+.wrapper_form-in-reg .select2-container {
+    margin-right: 0;
+}
+.wrapper_form-in-reg .select2-container .select2-selection .select2-selection__rendered img {
+    margin-top: -2px;
+    margin-right: 5px;
+}
+.kv-meter-container {
+    width: 40px;
+}
+.kv-strength-container .input-group {
+    padding-right: 10px;
+}
+.kv-meter-container .kv-meter .kv-scorebar-border {
+    width: 40px;
+    height: 16px;
+}
+.kv-meter-container .kv-meter .kv-scorebar-border .kv-scorebar {
+    width: 37px;
+    height: 14px;
+}
+.kv-meter-container .kv-meter .kv-scorebar-border .kv-score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 14px;
+}
+.kv-meter-container .kv-meter .kv-verdict {
+    display: none;
+}

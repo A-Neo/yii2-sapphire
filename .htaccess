@@ -1,0 +1,27 @@
+php_flag display_errors on
+php_flag open_short_tag on
+RewriteEngine On
+
+# Удалите или закомментируйте следующие строки, чтобы отключить принудительное использование HTTPS на localhost
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
+
+# Удалите или закомментируйте следующие строки, чтобы отключить проверку HTTP_REFERER на localhost
+# RewriteCond %{HTTP_REFERER} !^http://sapphire-gr.com/.*$      [NC]
+# RewriteCond %{HTTP_REFERER} !^http://sapphire-gr.com$      [NC]
+# RewriteCond %{HTTP_REFERER} !^http://www.sapphire-gr.com/.*$      [NC]
+# RewriteCond %{HTTP_REFERER} !^http://www.sapphire-gr.com$      [NC]
+# RewriteCond %{HTTP_REFERER} !^https://sapphire-gr.com/.*$      [NC]
+# RewriteCond %{HTTP_REFERER} !^https://sapphire-gr.com$      [NC]
+# RewriteCond %{HTTP_REFERER} !^https://www.sapphire-gr.com/.*$      [NC]
+# RewriteCond %{HTTP_REFERER} !^https://www.sapphire-gr.com$      [NC]
+# RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
